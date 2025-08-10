@@ -11,7 +11,7 @@ This project is a part of my **AI/ML Engineering Internship** at **DevelopersHub
 
 ---
 
-## Stock Price Prediction Project
+# Stock Price Prediction Project
 
 ## Task Objective
 
