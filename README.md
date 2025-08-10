@@ -22,6 +22,8 @@ This project demonstrates how to predict next-day stock closing prices using mac
 - **Data Points**: 1,258 trading days
 - **Features**: OHLCV (Open, High, Low, Close, Volume) data
 
+---
+
 ### ⚠️ Data Fetching Note
 
 Despite following all recommended procedures to retrieve historical stock data using the `yfinance` Python library, I encountered persistent errors across multiple tickers (e.g., AAPL, TSLA, GOOGL, MSFT). Specifically, the library returned:
@@ -46,6 +48,8 @@ Unfortunately, Yahoo Finance has recently restricted CSV downloads behind a Yaho
 To proceed with the analysis, I sourced a clean and publicly available dataset from GitHub containing historical data for Apple Inc. (AAPL). This ensures continuity with the project’s objectives while maintaining data integrity and relevance.
 
 Dataset from GitHub - https://github.com/kishoreramakrishnan-ds/stock-market-analysis-aapl/blob/main/AAPL.csv
+
+---
 
 ### Data Structure
 The dataset contains daily stock information including:
