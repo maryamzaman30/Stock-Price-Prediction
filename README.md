@@ -141,6 +141,15 @@ The project creates 26 technical indicators from raw OHLCV data:
 - **Evaluation Metrics**: MAE, RMSE, R² score
 - **Visualization**: Price predictions, error analysis, feature importance plots
 
+### File Structure
+```
+house/
+├── data/AAPL.csv                       # Dataset file   
+├── README.md                           # This file
+├── requirements.txt                    # Dependencies
+└── stock_price_prediction.ipynb        # Main analysis notebook            
+```
+
 ## Future Enhancements
 
 1. **Additional Features**: Market sentiment, economic indicators, sector performance
