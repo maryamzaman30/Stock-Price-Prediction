@@ -2,22 +2,17 @@
 
 This project is a part of my **AI/ML Engineering Internship** at **DevelopersHub Corporation**, Islamabad.
 
----
-
 ## Internship Details
 
 - **Company:** DevelopersHub Corporation, Islamabad 🇵🇰
 - **Internship Period:** July - August 2025
 
----
 
 # Stock Price Prediction Project
 
 ## Task Objective
 
 This project demonstrates how to predict next-day stock closing prices using machine learning models with historical stock data. The primary goal is to develop predictive models that can forecast stock prices based on technical indicators and historical price patterns, providing insights into potential stock price movements.
-
----
 
 ## Dataset Used
 
@@ -59,8 +54,6 @@ The dataset contains daily stock information including:
 - Trading volume
 - Date index for time-series analysis
 
----
-
 ## Models Applied
 
 ### 1. Linear Regression
@@ -74,8 +67,6 @@ The dataset contains daily stock information including:
 - **Features**: Same 26 engineered features as Linear Regression
 - **Hyperparameters**: Default scikit-learn parameters
 - **Advantage**: Captures non-linear relationships and feature interactions
-
----
 
 ## Feature Engineering
 
@@ -99,8 +90,6 @@ The project creates 26 technical indicators from raw OHLCV data:
 - Candlestick patterns (body size, shadows)
 - Price momentum indicators
 - Lagged features (previous day values)
-
----
 
 ## Key Results and Findings
 
@@ -140,8 +129,6 @@ The project creates 26 technical indicators from raw OHLCV data:
 - **Market Regime Changes**: Models may need retraining for different market conditions
 - **Single Stock Focus**: Results specific to AAPL, may not generalize to other stocks
 
----
-
 ## Technical Implementation
 
 - **Language**: Python 3.x
@@ -149,8 +136,6 @@ The project creates 26 technical indicators from raw OHLCV data:
 - **Data Processing**: Feature engineering, scaling, train-test splitting
 - **Evaluation Metrics**: MAE, RMSE, R² score
 - **Visualization**: Price predictions, error analysis, feature importance plots
-
----
 
 ## Future Enhancements
 
@@ -160,16 +145,12 @@ The project creates 26 technical indicators from raw OHLCV data:
 4. **Real-time Updates**: Implement live data feeds and model retraining
 5. **Risk Management**: Incorporate prediction confidence intervals and risk metrics
 
----
-
 ## Usage
 
 1. Install required dependencies: `pip install -r requirements.txt`
 2. Run the Jupyter notebook: `jupyter notebook stock_price_prediction.ipynb`
 3. Execute cells sequentially to perform the complete analysis
 4. Modify stock symbols or parameters as needed
-
----
 
 ## Dependencies
 
