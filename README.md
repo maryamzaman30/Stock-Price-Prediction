@@ -143,11 +143,11 @@ The project creates 26 technical indicators from raw OHLCV data:
 
 ### File Structure
 ```
-house/
-├── data/AAPL.csv                       # Dataset file   
-├── README.md                           # This file
-├── requirements.txt                    # Dependencies
-└── stock_price_prediction.ipynb        # Main analysis notebook            
+Stock-Price-Prediction/
+   ├── data/AAPL.csv                       # Dataset file   
+   ├── README.md                           # This file
+   ├── requirements.txt                    # Dependencies
+   └── stock_price_prediction.ipynb        # Main analysis notebook            
 ```
 
 ## Future Enhancements
